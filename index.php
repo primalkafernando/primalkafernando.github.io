@@ -31,7 +31,7 @@
         </div>        
       </div>
       <!-- END PRELOADER -->
-      <header>
+      <header id="header">
         <div class="navbar-fixed">
           <nav>
             <div class="container" >
@@ -109,11 +109,16 @@
                               <li><span>Phone : </span>+94 77 45 25 25 4</li>
                               <li><span>Email : </span>primalkafernando@gmail.com</li>
                               <li><span>Address : </span>Bo Gaha Road, Thalwila, Marawila, Sri Lanka</li>
+							  <br>
+							  <div class="resume-download col s12 m12 16">
+								<a href="https://www.linkedin.com/in/pramod-fernando-00210a105?trk=nav_responsive_tab_profile" target="_blank" class="btn btn-default">LinkedIn Profile</a>
+							  </div>
+							  
                             </ul>
+							
                           </div>
-                          <div class="resume-download col s16 m12 16">
-                            <a href="https://www.linkedin.com/in/pramod-fernando-00210a105?trk=nav_responsive_tab_profile" target="_blank" class="btn btn-default">LinkedIn Profile</a>
-                          </div>
+						  <br>
+                          
                         </div>
                       </div>
                     </div>
@@ -128,7 +133,7 @@
 			<section id="edcuation">
               <div class="container">
                 <div class="education-inner">
-                  <h2 class="title">Education</h2>
+                  <h4><b>EDUCATION</b></h4>
                   <p> </p>
                   <div id="owl-carousel1" class="experience-slider row">
                     <!-- Start Single Experience -->
@@ -236,7 +241,7 @@
 			<section id="experience">
               <div class="container">
                 <div class="skill-inner">
-                  <h2 class="title">Projects</h2>
+                   <h4><b>PROJECTS</b></h4>
                   <p> </p>
                   <div id="owl-carousel" class="experience-slider row">
                     <!-- Start Single Experience -->
@@ -393,7 +398,7 @@
 	<section id="experience">
               <div class="container">
                 <div class="skill-inner">
-                  <h2 class="title">Experience</h2>
+                  <h4><b>EXPERIENCE</b></h4>
                   
                   <div id="owl-carousel" class="experience-slider row">
                     
@@ -479,7 +484,9 @@
             <section id="skill">
               <div class="container">
                 <div class="skill-inner">
-                  <h2 class="title">Skills</h2>
+                 
+                
+                 <h4><b>SKILLS</b></h4>
                 
 
                   <!-- Start skills progress bar -->
@@ -505,7 +512,7 @@
               <section id="experience">
               <div class="container">
                 <div class="skill-inner">
-                  <h2 class="title">Extra Activities</h2>
+                   <h4><b>EXTRA ACTIVITIES</b></h4>
    
                   <div id="owl-carousel" class="experience-slider row">
                     
@@ -543,7 +550,7 @@
                         <div class="card-reveal">
                           <span class="card-title reveal-title">'Mama Ayeth Enna' Song Composer<i class="material-icons right">close</i></span>
                           <a href="#" class="card-subtitle"></a>
-                          <p><a href="https://www.youtube.com/watch?v=s5ZZMzE-tjA" target="_blank" class="btn btn-default">Youtube link</a><br>Directed & Edited by - Dileepa Chandima & Sameera Abeysuriya, Camera- Sameera Abeysuriya & Sahan Kasthuriarachchi, Lyrics - Dilhara Sandeepani, Melody - Lakshan Madurawala, Music - Pramod Primalka & Chanaka Lakmal, Mix and Masterd - Pramod Primalka</p>
+                          <p><a href="https://www.youtube.com/watch?v=s5ZZMzE-tjA" style="color:blue" target="_blank"><u>Youtube link</u></a><br>Directed & Edited by - Dileepa Chandima & Sameera Abeysuriya, Camera- Sameera Abeysuriya & Sahan Kasthuriarachchi, Lyrics - Dilhara Sandeepani, Melody - Lakshan Madurawala, Music - Pramod Primalka & Chanaka Lakmal, Mix and Masterd - Pramod Primalka</p>
                         </div>
                       </div>
                     </div>
@@ -561,7 +568,7 @@
                         <div class="card-reveal">
                           <span class="card-title reveal-title">'Arunella' Theme Song<i class="material-icons right">close</i></span>
                           <a href="#" class="card-subtitle"></a>
-                          <p><a href="https://drive.google.com/folderview?id=0B5b2dapGxo06ZGJlOUNnTmFNaFE&usp=sharing" target="_blank" class="btn btn-default">Me Arunellai</a> Melody - Pramod Primalka, Music - Pramod Primalka, Mix & Master -  Nawam Tharindu</p>
+                          <p><a href="https://drive.google.com/folderview?id=0B5b2dapGxo06ZGJlOUNnTmFNaFE&usp=sharing" style="color:blue" target="_blank"><u>Me Arunellai</u></a><br>Melody - Pramod Primalka, Music - Pramod Primalka, Mix & Master -  Nawam Tharindu</p>
                         </div>
                       </div>
                     </div>
@@ -686,13 +693,10 @@
                 <div class="row">
                   <div class="col s12">
                     <div class="skill-inner">
-                      <h2 class="title">Contact</h2>
-                      <p>&nbsp</p>
-                      <div class="contact">
-                        <div class="row">
-                          <div class="col s12 m6 l6">
+                      <h4><b>CONTACT</b></h4><br><br>
+                          <div class="col s12 m8 l6">
                             <div class="contact-form">
-                              <form>
+                              <form method="post">
                                 <div class="input-field">
                                   <input type="text" class="input-box" name="contactName" id="contact-name">
                                   <label class="input-label" for="contact-name">Name</label>
@@ -709,18 +713,43 @@
                                   <textarea class="materialize-textarea" name="contactMessage" id="textarea1"></textarea>
                                   <label class="input-label" for="textarea1">Message</label>
                                 </div>
-                                <button class="left waves-effect btn-flat brand-text submit-btn" type="submit">send message</button>
+								<input type="submit"  class="submit-btn" style="color:black;width:100px;height:40px" name="submit"></input>
+                                
                               </form>
                             </div>
                           </div>
                          
-                        </div>
-                      </div>
+                        
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+			
+			<?php
+			
+			if (isset($_POST['submit']))
+			{
+			
+			$email=$_POST['contactEmail'];
+			$subject=$_POST['contactSubject'];
+			$msg=$_POST['contactMessage'];
+			$msg = wordwrap($msg,70);
+			$headers = "From:".$email . "\r\n" ."CC: hiranyakavi@gmail.com";
+			// the message
+			//$msg = "First line of text\nSecond line of text";
+
+			// use wordwrap() if lines are longer than 70 characters
+			// send email
+			mail("hiranyakavi@gmail.com",$subject,$msg,$headers);
+			//$headers = "From: webmaster@example.com" . "\r\n" ."CC: somebodyelse@example.com";
+
+			//mail($to,$subject,$txt,$headers);
+			}
+			
+			?>
+            
+			
             <!-- Start Footer Bottom -->
             <div class="footer-bottom">
               <div class="container">
@@ -728,9 +757,10 @@
                   <div class="col s12">
                     <div class="footer-inner">
                       <!-- Bottom to Up Btn -->
-                      <button class="btn-floating btn-large up-btn"><i class="mdi-navigation-expand-less"></i></button>
-                     <p class="design-info"><a href="https://www.markups.io/"></a></p>
-                    </div>
+					  <!--<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: none;"><i class="fa fa-angle-up"></i></a>-->
+                      <a class="btn-floating btn-large up-btn" style="background-color:light gray" href="#header"> <i class="mdi-navigation-expand-less"></i><a>
+					  
+					</div>
                   </div>
                 </div>
               </div>
